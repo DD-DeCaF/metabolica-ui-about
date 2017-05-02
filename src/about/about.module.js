@@ -16,7 +16,8 @@ export const AboutModule = angular.module('about', [])
         appNavigationProvider.register('app.about', {
             title: 'About',
             icon: 'info',
-			position: 'toolbar'
+			position: 'toolbar',
+			authRequired: false
         });
 
         $stateProvider
